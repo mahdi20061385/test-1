@@ -2,146 +2,299 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Basic Language of the Web: HTML</title>
+    <title>Project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="kol">
-      <header class="main-header">
-        <h1>📘 The Code Magazine</h1>
-        <nav>
-          <a href="blog.html">Blog</a>
-          <a href="#">challenges</a>
-          <a href="#">Flexbox</a>
-          <a href="#">CSS Grid</a>
-        </nav>
-      </header>
-      <article>
-        <header>
-          <h2>The Basic Language of the Web: HTML</h2>
-          <img
-            src="laura-jones.jpg"
-            alt="Headshot of Ms.laura-jones"
-            width="50px"
-            height="50px"
-          />
+    <header class="header">
+      <div class="container">
+        <section class="header-top">
+          <nav class="nav">
+            <div class="nav-logo">
+              <img
+                src="images/Interactive-ART.png"
+                alt="Logo"
+                class="nav-logo__img"
+              />
+            </div>
 
-          <p id="author">
-            Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
-          </p>
-
-          <img
-            src="post-img.jpg"
-            alt="HTML code on a Screen!"
-            width="500px"
-            height="200px"
-          />
-        </header>
-        <p>
-          All modern websites and web applications are built using three
-          <em>fundamental</em>
-          technologies: HTML, CSS and JavaScript. These are the languages of the
-          web.
-        </p>
-
-        <p>
-          In this post, let's focus on HTML. We will learn what HTML is all
-          about, and why you too should learn it.
-        </p>
-
-        <h3>What is HTML?</h3>
-
-        <p>
-          HTML stands for <strong>H</strong>yper<strong>T</strong>ext
-          <strong>M</strong>arkup <strong>L</strong>anguage. It's a markup
-          language that web developers use to structure and describe the content
-          of a webpage (not a programming language).
-        </p>
-
-        <p>
-          HTML consists of elements that describe different types of content:
-          paragraphs, links, headings, images, video, etc. Web browsers
-          understand HTML and render HTML code as websites.
-        </p>
-
-        <p>In HTML, each element is made up of 3 parts:</p>
-
-        <ol>
-          <li class="first-li">The opening tag</li>
-          <li>The closing tag</li>
-          <li>The actual element</li>
-        </ol>
-
-        <p>
-          You can learn more at<a
-            href="https://developer.mozilla.org/en-US/docs/Web/HTML"
-            target="_blank"
-            >MDN Web Docs!</a
-          >
-        </p>
-
-        <h3>Why should you learn HTML?</h3>
-
-        <p>
-          There are countless reasons for learning the fundamental language of
-          the web. Here are 5 of them:
-        </p>
-
-        <ul>
-          <li class="first-li">
-            To be able to use the fundamental web dev language
-          </li>
-          <li>
-            To hand-craft beautiful websites instead of relying on tools like
-            Worpress or Wix
-          </li>
-          <li>To build web applications</li>
-          <li>To impress friends</li>
-          <li>To have fun 😃</li>
-        </ul>
-
-        <p>Hopefully you learned something new here. See you next time!</p>
-      </article>
-      <aside>
-        <h4><strong>Related posts</strong></h4>
-        <ul class="related">
-          <li>
+            <ul class="menu">
+              <li class="menu__item menu__item__1">
+                <a class="menu__link" href="#">Home</a>
+                <span class="hamber__icon"><i class="fa fa-times"></i></span>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">About</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">How it work</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Celients</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Portfolio</a>
+              </li>
+            </ul>
+          </nav>
+          <a href="#" class="header__link hov-btn-header">Contact us</a>
+          <span class="header__icon"><i class="fa fa-bars"></i></span>
+        </section>
+        <section class="header-bottom">
+          <div class="header-content">
+            <div class="header-content__left">
+              <div class="header-content__wrapper">
+                <h1 class="header-content__title">
+                  Create a new generation website for your business.
+                </h1>
+                <p class="header-content__text">
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, or randomised words which don't look
+                  even slightly believable.
+                </p>
+                <div class="header-content__links">
+                  <a href="" class="header-content__link hov-btn-header"
+                    >Contact us</a
+                  >
+                  <a href="" class="header-content__link hov-btn-header"
+                    >See our works</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="header-content__right">
+              <img
+                src="images/header-img.svg"
+                class="header-content__img"
+                alt="Header Content"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
+    </header>
+    <main class="main">
+      <section class="works">
+        <div class="container">
+          <h5 class="works__text">HOW IT WORK</h5>
+          <h2 class="works__title">
+            Three Simple Step To Started Working Process
+          </h2>
+          <div class="works-content">
+            <div class="works-content__item">
+              <h4 class="works-content__title">Research Project</h4>
+              <p class="works-content__text">
+                There are many variations of passages of Lorem Ipsum available
+              </p>
+            </div>
+            <div class="works-content__item">
+              <h4 class="works-content__title">Targeting</h4>
+              <p class="works-content__text">
+                There are many variations of passages of Lorem Ipsum available
+              </p>
+            </div>
+            <div class="works-content__item">
+              <h4 class="works-content__title">Result</h4>
+              <p class="works-content__text">
+                There are many variations of passages of Lorem Ipsum available
+              </p>
+            </div>
+          </div>
+          <div class="works-img">
             <img
-              src="related-1.jpg"
-              alt="related-1"
-              width="75px"
-              height="75px"
+              src="images/main-img.svg"
+              alt="Works Img"
+              class="works-img__img"
             />
-            <a href="#">How to Learn Web Development</a>
-            <p class="related-author">By Jonas Schmedtmann</p>
-          </li>
-          <li>
-            <img
-              src="related-2.jpg"
-              alt="related-2"
-              width="75px"
-              height="75px"
-            /><a href="#">The Unknown Powers of CSS </a>
-            <p class="related-author">By Jim Dillon</p>
-          </li>
-          <li>
-            <img
-              src="related-3.jpg"
-              alt="related-3"
-              width="75px"
-              height="75px"
-            /><a href="#">Why JavaScript is Awesome</a>
-            <p class="related-author">By Matilda</p>
-          </li>
-        </ul>
-      </aside>
-
-      <footer>
-        <p id="copyright" class="copyright text">
-          Copyright &copy; 2027 by The Code Magazine.
-        </p>
-      </footer>
-    </div>
+          </div>
+        </div>
+      </section>
+      <section class="people-comments">
+        <div class="container">
+          <h2 class="people-comments__title">You're in a good hand</h2>
+          <p class="people-comments__text">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered.
+          </p>
+          <div class="comment-container">
+            <div class="comments">
+              <div class="comment">
+                <div class="comment__content">
+                  <p class="comment__body">
+                    Life before Company was very chaotic we got a lot of phone
+                    calls, a lot of mistyped orders. So with Company, the
+                    ability to see the order directly from the customer makes it
+                    so streamlined.
+                  </p>
+                </div>
+                <div class="comment__info">
+                  <img
+                    src="images/person-1.png"
+                    alt="person-1"
+                    class="comment__img"
+                  />
+                  <p class="comment__people">Martin Jones, Creative Cons</p>
+                </div>
+              </div>
+              <div class="comment">
+                <div class="comment__content">
+                  <p class="comment__body">
+                    Life before Company was very chaotic we got a lot of phone
+                    calls, a lot of mistyped orders. So with Company, the
+                    ability to see the order directly from the customer makes it
+                    so streamlined.
+                  </p>
+                </div>
+                <div class="comment__info">
+                  <img
+                    src="images/person-2.png"
+                    alt="person-2"
+                    class="comment__img"
+                  />
+                  <p class="comment__people">Martin Jones, Creative Cons</p>
+                </div>
+              </div>
+              <div class="comment">
+                <div class="comment__content">
+                  <p class="comment__body">
+                    Life before Company was very chaotic we got a lot of phone
+                    calls, a lot of mistyped orders. So with Company, the
+                    ability to see the order directly from the customer makes it
+                    so streamlined.
+                  </p>
+                </div>
+                <div class="comment__info">
+                  <img
+                    src="images/person-3.png"
+                    alt="person-3"
+                    class="comment__img"
+                  />
+                  <p class="comment__people">Martin Jones, Creative Cons</p>
+                </div>
+              </div>
+            </div>
+            <div class="companies">
+              <img
+                src="images/logo-1.svg"
+                alt="Logo Company 1"
+                class="companies__img"
+              />
+              <img
+                src="images/logo-2.svg"
+                alt="Logo Company 2"
+                class="companies__img"
+              />
+              <img
+                src="images/logo-3.svg"
+                alt="Logo Company 3"
+                class="companies__img"
+              />
+              <img
+                src="images/logo-4.svg"
+                alt="Logo Company 4"
+                class="companies__img"
+              />
+              <img
+                src="images/logo-5.svg"
+                alt="Logo Company 5"
+                class="companies__img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio">
+        <div class="container">
+          <h5 class="portfolio__text">PORTFOLIO</h5>
+          <h2 class="portfolio__title">
+            <!-- style in section works (works__text/title) -->
+            Three Simple Step To Started Working Process
+          </h2>
+          <div class="portfolio-items">
+            <div class="portfolio__item portfolio__item__1">
+              <img
+                src="images/portfolio-1.jpg"
+                alt="Portfolio"
+                class="portfolio__img"
+              />
+            </div>
+            <div class="portfolio__item portfolio__item__2">
+              <img
+                src="images/portfolio-2.jpg"
+                alt="Portfolio"
+                class="portfolio__img"
+              />
+            </div>
+            <div class="portfolio__item portfolio__item__3">
+              <img
+                src="images/portfolio-3.jpg"
+                alt="Portfolio"
+                class="portfolio__img"
+              />
+            </div>
+            <div class="portfolio__item portfolio__item__4">
+              <img
+                src="images/portfolio-4.jpg"
+                alt="Portfolio"
+                class="portfolio__img"
+              />
+            </div>
+            <div class="portfolio__item portfolio__item__5">
+              <img
+                src="images/portfolio-5.jpg"
+                alt="Portfolio"
+                class="portfolio__img"
+              />
+            </div>
+            <div class="portfolio__item portfolio__item__6">
+              <img
+                src="images/portfolio-6.jpg"
+                alt="Portfolio"
+                class="portfolio__img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <section class="newsletter">
+        <div class="container">
+          <div class="newsletter__wrapper">
+            <h3 class="newsletter__text">
+              Create a new generation website for your business.
+            </h3>
+            <div class="newsletter__email">
+              <input
+                type="text"
+                class="newsletter__email__text"
+                placeholder="Email address"
+              />
+              <button class="newsletter__btn">
+                <img src="images/right-arrow.svg" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="copy-right">
+        <div class="container">
+          <div class="copy-right__wrapper">
+            <p class="copy-right__text">Copyright © 2018-2019</p>
+            <p class="copy-right__text">
+              Interactive ART Company All rights reserved
+            </p>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <script src="app.js"></script>
   </body>
 </html>
